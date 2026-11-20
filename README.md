@@ -177,7 +177,7 @@ node cli/makefun.mjs submit --competition <bounty-slug> \
 
 `--keypair` signs the entry with the wallet `login` set up in step 2, which every bounty with an escrowed
 reward asks for. That wallet is where the reward will be paid. You can submit at most 5 times per UTC day
-and 20 times in all for one bounty; your latest submission with a receipt before the deadline is the one
+and 10 times in all for one bounty; your latest submission with a receipt before the deadline is the one
 that counts.
 
 ## Step 8 — Grading, results, and claiming
